@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:gravity="top" android:background="@drawable/bg">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Name" android:id="@+id/CompanyName" android:textColor="#000000" android:paddingBottom="10sp" android:textSize="19sp" android:paddingTop="10sp" android:textStyle="bold|italic"></TextView>
+    <TextView android:textSize="17sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="City" android:id="@+id/CompanyCity" android:textColor="#000000" android:paddingBottom="10sp"></TextView>
+    <TextView android:textSize="17sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Address" android:id="@+id/CompanyAddress" android:textColor="#000000" android:paddingBottom="10sp"></TextView>
+    <TextView android:textSize="17sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/CompanyContacts" android:text="Contacts" android:textColor="#000000" android:paddingBottom="10sp"></TextView>
+    <TextView android:layout_height="wrap_content" android:textSize="17sp" android:layout_width="wrap_content" android:text="Description" android:id="@+id/CompanyDesc" android:textColor="#000000" android:paddingBottom="10sp" android:paddingTop="10sp"></TextView>
+    <LinearLayout android:id="@+id/linearLayout19" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center">
+        <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:text="View events" android:id="@+id/buttonViewEvents" android:onClick="viewCompanyEvents"></Button>
+        <Button android:id="@+id/buttonFavc" android:layout_height="wrap_content" android:text="Favorites" android:layout_width="wrap_content" android:onClick="favAction"></Button>
+        <Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:onClick="cancelAction" android:text="Back"></Button>
+    </LinearLayout>
+</LinearLayout>

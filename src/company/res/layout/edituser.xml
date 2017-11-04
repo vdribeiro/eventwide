@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01" android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg2">
+	    <LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent" android:gravity="top" android:orientation="vertical" >
+	    <TextView android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center_horizontal" android:layout_width="wrap_content" android:capitalize="sentences" android:text="User Information" android:id="@+id/TextViewEdit" android:textStyle="bold" android:textSize="20sp"></TextView>
+	    <TextView android:id="@+id/textView11" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	    <TextView android:id="@+id/textView16" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	    <TextView android:text="Password" android:textColor="#000000" android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="wrap_content"></TextView>
+	    <EditText android:id="@+id/editTextPasswordEdit" android:layout_height="wrap_content" android:layout_width="fill_parent"></EditText>
+	    <TextView android:id="@+id/textView17" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	    <TextView android:text="Calendar Information" android:textColor="#000000" android:capitalize="words" android:layout_height="wrap_content" android:id="@+id/textView10" android:layout_width="wrap_content" android:textSize="20sp" android:textStyle="bold"></TextView>
+	    <TextView android:id="@+id/textView12" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	    <TextView android:id="@+id/textView8" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GC Name"></TextView>
+	    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editTextGCNameEdit"></EditText>
+	    <TextView android:id="@+id/textView7" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GC User"></TextView>
+	    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editTextGCUserEdit"></EditText>
+	    <TextView android:id="@+id/textView9" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GC Password"></TextView>
+	    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editTextGCPassEdit"></EditText>
+	    <TextView android:id="@+id/textView14" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	    <TextView android:capitalize="words" android:textColor="#000000" android:layout_height="wrap_content" android:id="@+id/textView13" android:layout_width="wrap_content" android:text="Company Information" android:textStyle="bold" android:textSize="20sp"></TextView>
+	    <TextView android:id="@+id/textView15" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	    <TextView android:layout_height="wrap_content" android:textColor="#000000" android:id="@+id/textView2" android:layout_width="wrap_content" android:text="Company Name"></TextView>
+	    <EditText android:layout_height="wrap_content" android:id="@+id/editTextNameEdit" android:layout_width="fill_parent"></EditText>
+	    <TextView android:layout_width="wrap_content" android:textColor="#000000" android:id="@+id/textView4" android:layout_height="wrap_content" android:text="Description"></TextView>
+	    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/editTextDescEdit"></EditText>
+	    <TextView android:id="@+id/textView3" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Address"></TextView>
+	    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/editTextAddrEdit"></EditText>
+	    <TextView android:layout_width="wrap_content" android:textColor="#000000" android:id="@+id/textView6" android:layout_height="wrap_content" android:text="City"></TextView>
+	    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/editTextCityEdit"></EditText>
+	    <TextView android:layout_width="wrap_content" android:textColor="#000000" android:id="@+id/textView5" android:layout_height="wrap_content" android:text="Contacts"></TextView>
+	    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/editTextTelEdit"></EditText>
+	    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/editTextTelEdit2"></EditText>
+	    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/editTextTelEdit3"></EditText>
+	    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center">
+	        <Button android:id="@+id/buttonEditOk" android:onClick="editAction" android:capitalize="words" android:layout_height="wrap_content" android:text="Ok" android:layout_width="fill_parent" android:layout_weight="1"></Button>
+	        <Button android:id="@+id/button1" android:capitalize="words" android:layout_height="wrap_content" android:text="Cancel" android:layout_width="fill_parent" android:layout_weight="1" android:onClick="cancelAction"></Button>
+	    </LinearLayout>
+	</LinearLayout>
+</ScrollView>

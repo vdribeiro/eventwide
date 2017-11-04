@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01" android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+        <LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent" android:gravity="top" android:orientation="vertical">
+	    <TextView android:id="@+id/textView8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Calendar"></TextView>
+	    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editTextCalendar"></EditText>
+	    <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username"></TextView>
+	    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editTextCuser"></EditText>
+	    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView4" android:text="Password"></TextView>
+	    <EditText android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/editTextCPassword"></EditText>
+	    <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="IP"></TextView>
+	    <EditText android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/editTextIP"></EditText>
+	    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:gravity="center">
+	        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1" android:capitalize="words" android:id="@+id/buttonSave" android:onClick="saveAction" android:text="Save"></Button>
+	        <Button android:layout_width="fill_parent" android:onClick="cancelAction" android:layout_height="wrap_content" android:layout_weight="1" android:capitalize="words" android:id="@+id/buttonCancel" android:text="Clear"></Button>
+	    </LinearLayout>
+	    <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	    <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/buttonInfo" android:text="Product Information" android:onClick="infoAction"></Button>
+		</LinearLayout>
+</ScrollView>

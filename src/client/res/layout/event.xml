@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:gravity="top" android:background="@drawable/bg">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextViewName" android:text="Name" android:textSize="19sp" android:textColor="#000000" android:paddingBottom="10sp" android:paddingTop="10sp" android:textStyle="bold|italic"></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewDesc" android:text="Description" android:textSize="17sp" android:textColor="#000000" android:paddingBottom="10sp"></TextView>
+    <TextView android:textSize="17sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewPlace" android:text="Place" android:textColor="#000000" android:paddingBottom="10sp"></TextView>
+    <TextView android:textSize="17sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewSD" android:text="Start Date" android:textColor="#000000" android:paddingBottom="10sp"></TextView>
+    <TextView android:textSize="17sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewED" android:text="End Date" android:textColor="#000000" android:paddingBottom="10sp"></TextView>
+    <TextView android:textSize="17sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textViewCompany" android:text="Company" android:textColor="#000000" android:paddingBottom="10sp"></TextView>
+    <TextView android:textSize="17sp" android:layout_height="wrap_content" android:text="People Attending" android:id="@+id/textViewPA" android:layout_width="wrap_content" android:textColor="#000000" android:paddingBottom="10sp" android:paddingTop="10sp"></TextView>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:gravity="center">
+        <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:text="Add/Remove" android:id="@+id/buttonEditAddRm" android:onClick="addrmAction"></Button>
+        <Button android:layout_height="wrap_content" android:onClick="favAction" android:layout_width="fill_parent" android:layout_weight="1" android:id="@+id/buttonFav" android:text="Favorites"></Button>
+        <Button android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1" android:onClick="cancelAction" android:id="@+id/buttonCan" android:text="Back"></Button>
+    </LinearLayout>
+</LinearLayout>

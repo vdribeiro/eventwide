@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01" android:layout_width="fill_parent" 
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:gravity="top" android:background="@drawable/bg2">
+    <TextView android:id="@+id/textView1" android:gravity="center_horizontal" android:layout_height="wrap_content" android:capitalize="sentences" android:layout_width="wrap_content" android:layout_gravity="center" android:text="Menu" android:textSize="20sp" android:textStyle="bold" android:textColor="#000000" ></TextView>
+    <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#000000" ></TextView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="User" android:id="@+id/textViewMenuUser" android:textSize="18sp" android:textColor="#000000" ></TextView>
+    <TextView android:layout_width="wrap_content" android:text="Company" android:layout_height="wrap_content" android:id="@+id/textViewMenuCompany" android:textSize="18sp" android:textColor="#000000" ></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textViewMenuCalendar" android:text="Calendar" android:textSize="18sp" android:textColor="#000000" ></TextView>
+    <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#000000" ></TextView>
+    <Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Edit User Information" android:capitalize="words" android:onClick="editmenuAction" android:drawableRight="@drawable/edit_but" android:textColor="#000000" ></Button>
+    <Button android:layout_width="fill_parent" android:id="@+id/button2" android:layout_height="wrap_content" android:text="Update" android:capitalize="words" android:onClick="syncAction" android:drawableRight="@drawable/update48" android:textColor="#000000" ></Button>
+</LinearLayout>
+</ScrollView>

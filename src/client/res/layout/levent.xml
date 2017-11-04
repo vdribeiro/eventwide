@@ -1,0 +1,7 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="fill_parent" android:layout_width="wrap_content">
+<TextView android:layout_alignWithParentIfMissing="true" android:gravity="center_vertical" android:textSize="17sp" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="Place" android:id="@+id/textViewPlacel" android:layout_below="@+id/TextViewNamel" android:layout_alignLeft="@+id/TextViewNamel" android:layout_alignRight="@+id/TextViewNamel"></TextView>
+<ImageView android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/textViewPlacel" android:layout_alignLeft="@+id/textViewPlacel" android:src="@drawable/li_bg"></ImageView>
+<TextView android:textSize="17sp" android:layout_height="wrap_content" android:layout_width="fill_parent" android:singleLine="true" android:text="Name" android:ellipsize="marquee" android:id="@+id/TextViewNamel" android:layout_alignParentLeft="true"></TextView>
+<ImageView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_alignParentRight="true" android:id="@+id/imageViewicon"></ImageView>
+</RelativeLayout>
